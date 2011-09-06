@@ -1,0 +1,130 @@
+html
+{
+  font-size:100%;
+}
+
+a:focus
+{
+  outline-offset:-1px;
+}
+
+body, div, img, form, table, tr, td, th, caption, fieldset
+{
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+body
+{
+  background-color:#fefefe;
+  color:#5C5D60;
+  font-family:arial, helvetica, freesans, sans-serif;
+  font-size:1em;
+}
+
+div
+{
+  overflow:hidden;
+  position:relative;
+}
+
+h1
+{
+  font-size:x-large;
+}
+
+h2
+{
+  font-size:medium;
+  font-weight:bold;
+  color:#41C4DC;
+}
+
+a
+{
+  text-decoration:none;
+  color:#5C5D60;
+}
+
+a:hover
+{
+  color:#D5E04D;
+}
+
+a.highlight:hover
+{
+  color:#5C5D60;
+  background-color:#D5E04D;
+}
+
+table td
+{
+  height:1.5em;
+}
+
+table th
+{
+  text-decoration:underline;
+  text-align:left;
+}
+
+div.header
+{
+  background-color:#f0f0f0;
+  padding-left:2em;
+  z-index:100;
+  border-bottom:2px solid #E5E5E5;
+}
+
+div.header img
+{
+  vertical-align:middle;
+  margin:0.5em;
+}
+
+div.overview
+{
+  line-height:1.5em;
+  padding:1em;
+  width:50%;
+  font-size:small;
+}
+
+div.leftcol
+{
+  float:left;
+  margin-right:1em;
+}
+
+div.content
+{
+  padding-left:3em;
+  margin-bottom:2em;
+  z-index:100;
+}
+
+div.content a
+{
+  text-decoration:underline;
+  color:#5C5D60;
+}
+
+div.content a:hover
+{
+  color:#5C5D60;
+  background-color:#D5E04D;
+}
+
+div.footer
+{
+  border-top:2px solid #E5E5E5;
+  padding-left:2em;
+  background-color:#f0f0f0;
+  z-index:50;
+}
+
+div.footer table
+{
+  margin:1.5em;
+}
