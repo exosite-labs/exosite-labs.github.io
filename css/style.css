@@ -235,8 +235,9 @@ ul#top-navbar-links {
 
 #top-navbar-links li a {
   font-size: 12px;
-  /*font-family: "Helvetica Neue", helvetica, arial, sans-serif;*/
+  font-family: Helvetica,Arial,sans-serif;;
   text-transform: uppercase;
   /*font-weight: bold;*/
+  font-weight: 400;
   color: #41C4DC; }
 
